@@ -1,0 +1,169 @@
+#Container{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url("pngtree-light-yellow-background-yellow-color-blur-gradient-image_738345.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+#panelSup{
+    width: 100%;
+    height: 110px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:row;
+    margin-top: 10px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+#buttonA{
+    border-radius: 5px;
+    border-style: outset;
+    background-color:blanchedalmond;
+    margin-left: 5px;
+}
+
+#panel{
+    display: flex;
+    flex-direction: column;
+    border-style: outset;
+    background-color:rgb(252, 250, 245);
+    height: 470px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#Imagen{
+    display: flex;
+    height:440px;
+    width:40%;
+    border-radius: 10px;
+    border-style: outset;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+#answer{
+    display:flex;
+    flex-direction: column;
+    height:450px;
+    width:75%;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    width: 98%;
+    height: 400px;
+}
+
+#Ubicacion{
+    display:flex;
+    flex-direction: column;
+    border-style: outset;
+    margin-bottom: 10px;
+    width:350px;
+    height:200px;
+    font-size: 11px;
+    justify-content: center;
+    padding-left: 15px;
+    background-color: rgb(255, 231, 231);
+    border-radius: 10px;
+    padding-right: 15px;
+}
+
+#extra{
+    display:flex;
+    flex-direction: column;
+    border-style: outset;
+    margin-bottom: 10px;
+    width:350px;
+    height:200px;
+    font-size: 11px;
+    justify-content: center;
+    padding-left: 15px;
+    background-color: rgb(255, 231, 231);
+    border-radius: 10px;
+    padding-right: 15px;
+}
+
+#info_G{
+    display:flex;
+    border-style: outset;
+    margin-bottom: 10px;
+    width:100%;
+    height:340px;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 247, 203);
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#bandera{
+    display:flex;
+    flex-direction: row;
+    border-style: outset;
+    padding-right: 50px;
+    align-items: center;
+    background-color:rgb(252, 250, 245);
+    border-radius: 10px;
+}
+
+#atraccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99.6%;
+    height: 120px;
+    background-color:  rgb(204, 228, 252);
+    border-style: outset;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#Encabezado{
+    font-size: 13px;
+    display:flex;
+    flex-direction: row;
+    padding-left: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+#entrada{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-right: 50px;
+    align-items:center;
+}
+#paraEspacio{
+    margin-left: 55px;
+    font-size: 15px;
+}
+
+#paraDividir{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#otraInfo{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 352px;
+}

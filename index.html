@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="api.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Turismo en Colombia</title>
+</head>
+<body id="Container">
+    <div id="bandera">
+        <div id="panelSup">
+            <div id="Encabezado">
+                <h1>¿Qué atracción turística descubrirás hoy? </h1>
+                <h4 id="paraEspacio">Pon un valor entre el 1 y el 41 para hacerlo:</h4>
+            </div>
+            <div id="entrada">
+                <input type="text" name="inputID" id="inputID">
+                <button id="buttonA" onclick="getInput()">Descubrir</button>
+            </div>
+        </div>
+        <img src= "17da29a28f80902cb950e01410393422.png" width="100" height="90">
+    </div>
+    <div id="panel">
+        <div id="info">
+            <div id="Imagen"></div>
+
+            <div id="answer">
+                <div id="atraccion"></div>
+                <div id="paraDividir">
+                    <div id="info_G"></div>
+                    <div id="otraInfo">
+                        <div id="Ubicacion"></div>
+                        <div id="extra"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
