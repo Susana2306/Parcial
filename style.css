@@ -3,9 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-image: url("pngtree-light-yellow-background-yellow-color-blur-gradient-image_738345.jpg");
-    background-size: cover;
-    background-attachment: fixed; 
+    background-color: #FFEB18;
 }
 
 #panelSup{
@@ -17,12 +15,13 @@
     margin-top: 10px;
     font-size: 15px;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 #buttonA{
     border-radius: 5px;
     border-style: outset;
-    background-color:blanchedalmond;
+    background-color:rgb(255, 205, 205);
     margin-left: 5px;
 }
 
@@ -30,10 +29,11 @@
     display: flex;
     flex-direction: column;
     border-style: outset;
-    background-color:rgb(252, 250, 245);
+    background-color:#5869C3;
     height: 470px;
     width: 100%;
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 
 #Imagen{
@@ -116,7 +116,7 @@
     border-style: outset;
     padding-right: 50px;
     align-items: center;
-    background-color:rgb(252, 250, 245);
+    background-color:#c92d3a;
     border-radius: 10px;
 }
 
